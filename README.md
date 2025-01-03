@@ -33,3 +33,29 @@ Run the bot:
 ```
 python src/main.py
 ```
+Configuration
+See configuration.md for detailed setup instructions.
+
+Usage
+See usage.md for detailed usage instructions.
+
+License
+MIT License
+
+
+3. `.env.example`:
+```env
+# Telegram Bot Configuration
+BOT_TOKEN=your_telegram_bot_token_here
+ADMIN_USER_ID=your_telegram_user_id
+
+# Database Configuration
+DATABASE_URL=sqlite:///data/bot.db
+
+# Tenderduty Configuration
+TENDERDUTY_HOST=localhost
+TENDERDUTY_PORT=8888
+
+# RPC Configuration
+PRIMARY_RPC_URL=http://your-primary-rpc:26657
+BACKUP_RPC_URLS=http://backup1:26657,http://backup2:26657
