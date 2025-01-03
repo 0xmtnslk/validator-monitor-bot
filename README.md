@@ -14,9 +14,10 @@ A comprehensive Telegram bot for monitoring and managing blockchain validators w
 ## Installation
 
 1. Clone the repository:
-```bash
+```
 git clone https://github.com/0xmtnslk/validator-monitor-bot.git
 cd validator-monitor-bot
+```
 
 Install dependencies:
 
